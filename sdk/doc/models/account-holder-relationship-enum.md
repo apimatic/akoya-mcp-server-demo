@@ -1,0 +1,34 @@
+
+# Account Holder Relationship Enum
+
+Types of relationships between accounts and holders. Suggested values
+
+## Enumeration
+
+`AccountHolderRelationshipEnum`
+
+## Fields
+
+| Name |
+|  --- |
+| `AUTHORIZEDUSER` |
+| `BUSINESS` |
+| `FORBENEFITOF` |
+| `FORBENEFITOFPRIMARY` |
+| `FORBENEFITOFPRIMARYJOINTRESTRICTED` |
+| `FORBENEFITOFSECONDARY` |
+| `FORBENEFITOFSECONDARYJOINTRESTRICTED` |
+| `FORBENEFITOFSOLEOWNERRESTRICTED` |
+| `POWEROFATTORNEY` |
+| `PRIMARYJOINTTENANTS` |
+| `PRIMARY` |
+| `PRIMARYBORROWER` |
+| `PRIMARYJOINT` |
+| `SECONDARY` |
+| `SECONDARYJOINTTENANTS` |
+| `SECONDARYBORROWER` |
+| `SECONDARYJOINT` |
+| `SOLEOWNER` |
+| `TRUSTEE` |
+| `UNIFORMTRANSFERTOMINOR` |
+

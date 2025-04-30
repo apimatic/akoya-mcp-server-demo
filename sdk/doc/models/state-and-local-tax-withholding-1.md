@@ -1,0 +1,35 @@
+
+# State and Local Tax Withholding 1
+
+Box 17, State and Local tax withholding
+
+## Structure
+
+`StateAndLocalTaxWithholding1`
+
+## Fields
+
+| Name | Type | Tags | Description |
+|  --- | --- | --- | --- |
+| `stateCode` | [`StateCode2Enum \| undefined`](../../doc/models/state-code-2-enum.md) | Optional | State two-digit code |
+| `state` | [`StateTaxWithholding2 \| undefined`](../../doc/models/state-tax-withholding-2.md) | Optional | Amount of state income tax withheld |
+| `local` | [`LocalTaxWithholding1 \| undefined`](../../doc/models/local-tax-withholding-1.md) | Optional | Amount of local income tax withheld, if any |
+
+## Example (as JSON)
+
+```json
+{
+  "stateCode": "AA",
+  "state": {
+    "taxWithheld": 128.78,
+    "taxId": "taxId0",
+    "income": 191.56
+  },
+  "local": {
+    "taxWithheld": 75.84,
+    "localityName": "localityName6",
+    "income": 244.5
+  }
+}
+```
+
